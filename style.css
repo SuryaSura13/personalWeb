@@ -91,7 +91,7 @@ header.sticky {
 
 /* image banners */
 section.banners {
-    background-image: url(image/Banner.jpg);
+    background-image: url(Image/Banner.jpg);
     background-repeat: no-repeat;
     background-position: center;
     height: 100vh;
