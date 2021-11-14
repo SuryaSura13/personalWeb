@@ -6,8 +6,9 @@
 * {
     padding: 0;
     margin: 0;
-    font-size: 16px;
-    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
     scroll-behavior:smooth;
 }
 
@@ -53,7 +54,7 @@ header.sticky {
     font-weight: 500;
     color: #F9FFEA;
     text-shadow: 0px 0px 5px #232931;
-    font-size: 45px;
+    font-size: 40px;
     font-weight: 500;
     font-family: 'Cookie', cursive;
     
@@ -91,7 +92,7 @@ header.sticky {
 
 /* image banners */
 section.banners {
-    background-image: url(Image/Banner.jpg);
+    background-image: url(Image/bru.jpg);
     background-repeat: no-repeat;
     background-position: center;
     height: 100vh;
@@ -111,7 +112,7 @@ section.banners::after {
     right: 0;
     top: 0;
     background-color: #000;
-     opacity: .6;
+     opacity: .5;
      z-index: -1;
 }
 section.banners .container {
@@ -125,35 +126,33 @@ section.banners .banners-content {
 }
 section.banners .banners-content .teks-1{
     font-size: 30px;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 500;
 }
 section.banners .banners-content .teks-2{
-    font-size: 49px;
-    font-family: 'Ubuntu', sans-serif;
+    font-size: 37px;
+    font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    color: #FF165D;
-    text-shadow: 0 0 5px #232931;
+    color: #F9FFEA;
+    text-shadow: 0 0 10px #232931;
     /* color: crimson; */
     /* text-shadow: 0 0 1px #000; */
 }
 section.banners .banners-content .teks-3{
     font-size: 30px;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    margin: 3px 0;
+    margin: 0px 0;
 }
 section.banners .banners-content .teks-3 span{
     font-size: 30px;
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 500;
-    color: #F9FFEA;
-    padding: 2px 0px;
-    background-color: #232931;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #FF165D;
 }
 section.banners .banners-content form input[name="buttonCV"] {
     padding: 5px 10px;
-    border: 3px solid #232931;
+    border: 3px solid #FF165D;
     background: transparent;
     color: #F9FFEA;
     font-size: 20px;
@@ -305,11 +304,11 @@ input[name="button"]:hover{
   align-items:center;
   flex-direction: column;
   box-shadow: 0 0 10px rgba(1 1 1 / 20%);
-  border-radius: 10px;
+  /* border-radius: 10px; */
 }
 #Services .content .card .ikon i{
     color: #FF165D;
-  font-size: 5em;
+  font-size: 4em;
   text-align: center;
   padding: 5px 0;
   transition: transform 0.5s ease;
@@ -357,7 +356,7 @@ text-align: center;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  align-items: cter;
+  align-items:flex-start;
   justify-content: space-between;
   background-color: #fff;
 }
@@ -368,31 +367,34 @@ text-align: center;
     text-align: left;
     padding-left: 5px;
     padding-top: 2px;
+    font-size: 1.0em;
+    font-weight: 700;
+    margin: 0 10px;
+
 
 }
 #Blogs .cards p{
     text-align:justify;
     padding: 0 5px;
+  margin: 0 10px
+
 }
 #Blogs .cards .writer {
     font-style: italic;
     font-size: 14px;
-    color: rgb(0, 0, 0,0.5);
-    padding: 2px 5px;
+    color: rgb(0, 0, 0,0.8);
 }
-/* #Blogs .cards .writer small{
-    font-weight: 500;
-    text-align: left;
-    color: #ff165c96;
-} */
+
 
 #Blogs .cards input[name="buttonArticle"]{
     background: transparent;
-    padding: 10px 10px;
+    padding: 0 10px;
     margin-bottom: 5px;
     border: none;
-    color: #232931;
+    color: #FF165D;
     font-weight: 700;
+    font-size: 17;
+    
 
 }
 #Blogs .cards input[name="buttonArticle"]:hover{
@@ -408,7 +410,7 @@ text-align: center;
     font-weight: 700;
     border: none;
     border-radius: 20px;
-    color: #232931;
+    color: #FBFBFB;
     background-color: #FF165D;
 }
 #Blogs .container input[name="buttonMore"]:hover {
@@ -629,7 +631,7 @@ footer small {
     }
     #About .teks-about p {
         text-align: justify;
-        margin-bottom: 0;
+        margin-bottom: 10px;
 
     }
    
