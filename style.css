@@ -92,7 +92,7 @@ header.sticky {
 
 /* image banners */
 section.banners {
-    background-image: url(Image/bru.jpg);
+    background-image: url(Image/banner11.jpg);
     background-repeat: no-repeat;
     background-position: center;
     height: 100vh;
@@ -112,7 +112,7 @@ section.banners::after {
     right: 0;
     top: 0;
     background-color: #000;
-     opacity: .5;
+     opacity: .6;
      z-index: -1;
 }
 section.banners .container {
@@ -125,12 +125,12 @@ section.banners .banners-content {
     align-items: flex-start;
 }
 section.banners .banners-content .teks-1{
-    font-size: 30px;
+    font-size: 40px;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
 }
 section.banners .banners-content .teks-2{
-    font-size: 37px;
+    font-size: 45px;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     color: #F9FFEA;
@@ -139,13 +139,13 @@ section.banners .banners-content .teks-2{
     /* text-shadow: 0 0 1px #000; */
 }
 section.banners .banners-content .teks-3{
-    font-size: 30px;
+    font-size: 40px;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     margin: 0px 0;
 }
 section.banners .banners-content .teks-3 span{
-    font-size: 30px;
+    font-size: 40px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     color: #FF165D;
@@ -394,8 +394,6 @@ text-align: center;
     color: #FF165D;
     font-weight: 700;
     font-size: 17;
-    
-
 }
 #Blogs .cards input[name="buttonArticle"]:hover{
   cursor: pointer;
