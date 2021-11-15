@@ -112,7 +112,7 @@ section.banners::after {
     right: 0;
     top: 0;
     background-color: #000;
-     opacity: .6;
+     opacity: .7;
      z-index: -1;
 }
 section.banners .container {
