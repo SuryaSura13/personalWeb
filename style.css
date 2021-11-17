@@ -13,7 +13,7 @@
 }
 
 body {
-   background-color: #FBFBFB;
+   background-color: #EDEDED;
    
 }
 
@@ -33,9 +33,9 @@ header{
     
 }
 header.sticky {
-    background: #232931;
+    background: #1F1D36;
     transition: .5s ;
-    box-shadow: 0 0px 4px rgb(0, 0, 0,1);
+    box-shadow: 0 1px 4px rgb(0, 0, 0,0.8);
 
 }
 .container {
@@ -52,7 +52,7 @@ header.sticky {
 }
 .menu h1 a{
     font-weight: 500;
-    color: #F9FFEA;
+    color: #EDEDED;
     text-shadow: 0px 0px 5px #232931;
     font-size: 40px;
     font-weight: 500;
@@ -65,7 +65,7 @@ header.sticky {
 
 }
 .menu ul li a {
-    color: #F9FFEA;
+    color: #EDEDED;
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
@@ -79,13 +79,13 @@ header.sticky {
  .openMenu {
     /* font-size: 2rem; */
     cursor: pointer;
-    color: #F9FFEA;
+    color: #EDEDED;
     display:  none;
 }
  .closeMenu {
     font-size: 2rem;
     cursor: pointer; 
-    color: #F9FFEA;
+    color: #EDEDED;
     display: none;   
 }
 
@@ -100,7 +100,7 @@ section.banners {
     position: relative;
     display: flex;
     z-index: 100;
-    color: #F9FFEA;
+    color: #EDEDED;
     background-attachment: fixed;
     
 }
@@ -111,7 +111,7 @@ section.banners::after {
     left: 0;
     right: 0;
     top: 0;
-    background-color: #000;
+    background-color: #1F1D36;
      opacity: .7;
      z-index: -1;
 }
@@ -128,13 +128,17 @@ section.banners .banners-content .teks-1{
     font-size: 40px;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
+    color: #EDEDED;
 }
 section.banners .banners-content .teks-2{
-    font-size: 45px;
+    font-size: 40px;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    color: #F9FFEA;
+    color: #EDEDED;
+    background-color: #DA0037;
     text-shadow: 0 0 10px #232931;
+    padding: 0 5px;
+    border-radius: 5px;
     /* color: crimson; */
     /* text-shadow: 0 0 1px #000; */
 }
@@ -148,20 +152,20 @@ section.banners .banners-content .teks-3 span{
     font-size: 40px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
-    color: #FF165D;
+    color: #DA0037;
 }
 section.banners .banners-content form input[name="buttonCV"] {
     padding: 5px 10px;
-    border: 3px solid #FF165D;
+    border: 3px solid #DA0037;
     background: transparent;
-    color: #F9FFEA;
+    color: #EDEDED;
     font-size: 20px;
     font-weight: 600;
     margin: 5px 0;
 }
 section.banners .banners-content form input[name="buttonCV"]:hover {
-    background: #232931;
-    color: #FF165D;
+    background: #1F1D36;
+    color: #DA0037;
     transition:.5s ease;
     cursor: pointer;
 }
@@ -173,12 +177,12 @@ section.banners .banners-content form input[name="buttonCV"]:hover {
     padding: 10px 0;
 }
 .banners .icon-subs a {
-    color: #fff;
+    color: #EDEDED;
     /* margin-left: 15px; */
     /* font-size: ; */
 }
 .banners .icon-subs a i {
-    color: rgb(247, 248, 248);
+    color: #EDEDED;
     font-size: 36px;
     margin-right: 17px;
 }
@@ -192,7 +196,7 @@ section h2 {
     position: relative;
     font-size: 30px;
     font-weight: 800;
-    color: #FF165D;
+    color: #DA0037;
     font-family: 'Poppins', sans-serif;
 }
 section h2::before {
@@ -202,7 +206,7 @@ section h2::before {
     bottom: -2px;
     width: 100px;
     height: 5px;
-    background-color: #FF165D;
+    background-color: #DA0037;
     left: calc(50% - 50px);
 }
 section h2::after {
@@ -212,10 +216,11 @@ section h2::after {
     bottom: -8px;
     width: 17px;
     height: 17px;
-    background-color: #FF165D;
+    background-color: #DA0037;
     left: calc(50% - 9px);
     border-radius: 50%;
 }
+
 /* About */
 
 #About {
@@ -232,18 +237,21 @@ section h2::after {
    justify-content: space-evenly;
    align-items: center;
    box-sizing: border-box;  
-   margin-top: 15px; 
+   margin-top: 20px 0; 
 }
 #About .bingkai {
     width: 27%;
     height: auto;
     margin-right: 0;   
-    margin-left: 170px; 
+    margin-left: 170px;
+    border-radius: 10px; 
+
 }
 #About .bingkai img {
     width: 100%;
     height: 100%;
     /* border: 1px solid rgb(0, 0, 0,0.2); */
+    border-radius: 10px; 
     box-shadow: 0 0px 15px rgba(1 1 1 / 80%);
 }
 #About .teks-about {
@@ -257,17 +265,17 @@ section h2::after {
     text-align: justify;
     font-size: 16px;
     margin-bottom: 15px;
-    color: #000;
+    color: #222;
     line-height: 25px;
 }
 #About .teks-about h3 {
     font-weight: 800;
     font-size: 20px;
-    color: #232931;
+    color: #111;
 }
 input[name="button"]{
-    background-color: #FF165D;
-    color: #232931;
+    background-color: #DA0037;
+    color: #EDEDED;
     font-weight: 600;
     padding: 10px 17px;
     border: none;
@@ -275,8 +283,8 @@ input[name="button"]{
     border-radius: 20px;
 }
 input[name="button"]:hover{
-    color: #FF165D;
-    background-color: #232931;
+    color: #DA0037;
+    background-color: #1F1D36;
     transition: .5s;
     cursor: pointer;
 }
@@ -295,7 +303,7 @@ input[name="button"]:hover{
     margin-top: 15px;
 }
 #Services .content .card{
-    background: #fff;
+    background: #efefef;
   width: 340px;
   margin: 10px;
   padding: 20px;
@@ -307,7 +315,7 @@ input[name="button"]:hover{
   /* border-radius: 10px; */
 }
 #Services .content .card .ikon i{
-    color: #FF165D;
+    color: #DA0037;
   font-size: 4em;
   text-align: center;
   padding: 5px 0;
@@ -322,11 +330,15 @@ input[name="button"]:hover{
 text-align: center;
 }
 #Services .content .card .info h3{
-    color: #232931;
+    color: #111;
   font-size: 1.2em;
   font-weight: 700;
   margin: 10px;
-    }
+}
+#Services .content .card .info p{
+    color: #222;
+}
+
     
 
 /* blogs */
@@ -352,13 +364,13 @@ text-align: center;
 #Blogs .cards {
     width: 29%;
     height: auto;
-    box-shadow: 0 0 15px rgba(1 1 1 / 25%);
+    box-shadow: 0 0 15px rgba(1 1 1 / 70%);
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   align-items:flex-start;
   justify-content: space-between;
-  background-color: #fff;
+  background-color: #efefef;
 }
 #Blogs .cards img{
     width: 100%;
@@ -370,19 +382,20 @@ text-align: center;
     font-size: 1.0em;
     font-weight: 700;
     margin: 0 10px;
-
+    color: #111;
 
 }
 #Blogs .cards p{
     text-align:justify;
     padding: 0 5px;
-  margin: 0 10px
+  margin: 0 10px;
+  color: #222;
 
 }
 #Blogs .cards .writer {
     font-style: italic;
     font-size: 14px;
-    color: rgb(0, 0, 0,0.8);
+    color: #555;
 }
 
 
@@ -391,7 +404,7 @@ text-align: center;
     padding: 0 10px;
     margin-bottom: 5px;
     border: none;
-    color: #FF165D;
+    color: #DA0037;
     font-weight: 700;
     font-size: 17;
 }
@@ -408,12 +421,12 @@ text-align: center;
     font-weight: 700;
     border: none;
     border-radius: 20px;
-    color: #FBFBFB;
-    background-color: #FF165D;
+    color: #EDEDED;
+    background-color: #DA0037;
 }
 #Blogs .container input[name="buttonMore"]:hover {
-  background-color: #232931;
-  color: #FF165D;
+  background-color: #1F1D36;
+  color: #DA0037;
   transition: all .5s;
 
 }
@@ -421,13 +434,12 @@ text-align: center;
 
 /* galery */
 #Galery {
-    padding: 7vh 0;
+    padding: 6vh 0;
 }
 #Galery .container .gambar {
     width: 60%;
-    margin: 10px auto;
-    
-
+    margin: 20px auto;
+    border: 3px solid #efefef;
 }
 
 
@@ -459,13 +471,10 @@ text-align: center;
 /* contact */
 #Contact {
     padding: 10vh 0;
-    background-color: #333;
+    background-color: #444;
 }
 #Contact .container {
     box-sizing: border-box;
-}
-#Contact .container h2 {
-    color: #FF165D;
 }
 
 #Contact .kontak {
@@ -475,7 +484,7 @@ text-align: center;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    color: #F9FFEA;
+    color: #EDEDED;
     /* background-color: #222; */
 
 
@@ -490,7 +499,7 @@ text-align: center;
 }
 #Contact .form input {
     padding: 5px;
-    width: 50%;
+    width: 60%;
     border-radius: 5px;
     border: none;
     margin-bottom: 10px;
@@ -502,30 +511,30 @@ text-align: center;
     margin-bottom: 10px;
 }
 #Contact  input[type="submit"]{
-    background-color: crimson;  
-    color: #fff;
-    width: 15%;
+    background-color: #DA0037;  
+    color: #EDEDED;
+    width: 20%;
     padding: 10px;
     border: none;
 
 }
 #Contact  input[type="submit"]:hover {
-    background-color: #fff;  
-    color: rgb(16, 189, 10);
+    background-color: #1F1D36;  
+    color: #DA0037;
     transition: 0.5s;
 }
 
 
 footer {
-    padding: 6vh 0;
-    font-size: 20px;
-    background-color: #111;
-    color: #fff;
+    padding: 4vh 0;
+    /* font-size: 20px; */
+    background-color: #222;
+    color: #EDEDED;
     text-align: center;
 }
 
 footer small {
-    font-size: 17px;
+    font-size: 15px;
 }
 
 .reveal {
@@ -561,7 +570,7 @@ footer small {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background: #232931;
+        background: #1F1D36;
         transition: 0.5s ;
         display: none;
     }
