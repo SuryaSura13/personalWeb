@@ -126,3 +126,9 @@ const submitContact = document.querySelector('#Contact form');
 submitContact.addEventListener('submit', function() {
     alert("terkirim");
 });
+
+// button cv
+const buttonCv = document.querySelector('.banners a input[name="buttonCV"]');
+
+buttonCv.addEventListener('click', () => {
+});
