@@ -1,19 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,500;0,700;1,300;1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,500;0,600;0,700;0,800;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,600;1,700&display=swap');
 
 * {
     padding: 0;
     margin: 0;
-    font-size: 15px;
+    font-size: 16px;
     font-family: 'Poppins', sans-serif;
-    font-weight: 500;
+    font-weight: 400;
     scroll-behavior:smooth;
 }
 
 body {
-   background-color: #EDEDED;
+   background-color: #111;
    
 }
 
@@ -29,7 +29,7 @@ header{
     transition: .5s ; 
 }
 header.sticky {
-    background: #1F1D36;
+    background: #DA0037;
     transition: .5s ;
     box-shadow: 0 1px 4px rgb(0, 0, 0,0.8);
 
@@ -133,8 +133,8 @@ section.banners .banners-content .teks-2{
     color: #EDEDED;
     background-color: #DA0037;
     text-shadow: 0 0 10px #232931;
-    padding: 0 5px;
-    border-radius: 5px;
+    padding: 0 10px;
+    border-radius: 1px 30px 30px 1px;
     /* color: crimson; */
     /* text-shadow: 0 0 1px #000; */
 }
@@ -147,12 +147,13 @@ section.banners .banners-content .teks-3{
 section.banners .banners-content .teks-3 span{
     font-size: 40px;
     font-family: 'Poppins', sans-serif;
-    font-weight: 700;
+    font-weight: 500;
     color: #DA0037;
 }
 section.banners .banners-content form input[name="buttonCV"] {
-    padding: 5px 10px;
+    padding: 8px 15px;
     border: 3px solid #DA0037;
+    border-radius: 30px;
     background: transparent;
     color: #EDEDED;
     font-size: 20px;
@@ -220,8 +221,7 @@ section h2::after {
 /* About */
 
 #About {
-    padding: 10vh 0;
-    /* background-color: #666;    */
+    padding: 15vh 0;   
 }
 
 #About .wrapper { 
@@ -245,7 +245,7 @@ section h2::after {
 #About .bingkai img {
     width: 100%;
     height: 100%;
-    box-shadow: 0 0px 20px rgba(1 1 1 / 50%);
+    border: 1px solid #222;
 }
 #About .teks-about {
     width: 49%;
@@ -258,13 +258,13 @@ section h2::after {
     text-align: justify;
     font-size: 16px;
     margin-bottom: 15px;
-    color: #222;
-    line-height: 25px;
+    color: #EDEDED;
+    /* line-height: 20px; */
 }
 #About .teks-about h3 {
     font-weight: 800;
     font-size: 20px;
-    color: #111;
+    color: #DA0037;
 }
 input[name="button"]{
     background-color: #DA0037;
@@ -296,7 +296,7 @@ input[name="button"]:hover{
     margin-top: 15px;
 }
 #Services .content .card{
-    background: #efefef;
+    background: #333;
   width: 340px;
   margin: 10px;
   padding: 20px;
@@ -323,13 +323,13 @@ input[name="button"]:hover{
 text-align: center;
 }
 #Services .content .card .info h3{
-    color: #111;
+    color: #DA0037;
   font-size: 1.2em;
   font-weight: 700;
   margin: 10px;
 }
 #Services .content .card .info p{
-    color: #222;
+    color: #EDEDED;
 }
 
     
@@ -337,6 +337,7 @@ text-align: center;
 /* blogs */
 #Blogs {
     padding: 6vh 0;
+
 }
 #Blogs .container {
     display: flex;
@@ -363,7 +364,7 @@ text-align: center;
   flex-direction: column;
   align-items:flex-start;
   justify-content: space-between;
-  background-color: #efefef;
+  background-color: #333;
 }
 #Blogs .cards img{
     width: 100%;
@@ -375,20 +376,20 @@ text-align: center;
     font-size: 1.0em;
     font-weight: 700;
     margin: 0 10px;
-    color: #111;
+    color: #DA0037;
 
 }
 #Blogs .cards p{
     text-align:justify;
     padding: 0 5px;
   margin: 0 10px;
-  color: #222;
+  color: #EDEDED;
 
 }
 #Blogs .cards .writer {
     font-style: italic;
-    font-size: 14px;
-    color: #444;
+    font-size: 12px;
+    color: #999;
 }
 #Blogs .cards .writer small {
     font-size: 10px;
@@ -431,11 +432,11 @@ text-align: center;
 /* galery */
 #Galery {
     padding: 6vh 0;
+
 }
 #Galery .container .gambar {
     width: 60%;
     margin: 20px auto;
-    border: 3px solid #efefef;
 }
 
 
@@ -566,7 +567,7 @@ footer small {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background: #1F1D36;
+        background: #DA0037;
         transition: 0.5s ;
         display: none;
     }
@@ -703,7 +704,7 @@ footer small {
         width: 100%;
     }
 #Contact .form input {
-    width: 60%;
+    width: 70%;
 }
 #Contact  input[type="submit"]{
     width: 20%;

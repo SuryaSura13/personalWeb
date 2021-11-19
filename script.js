@@ -51,7 +51,7 @@ window.addEventListener('scroll', function(){
 });
 
 // efek ketik
-const txtElement = ['Student,','Junior Web Developer.'];
+const txtElement = ['Student,','Web Developer.'];
 let count = 0;
 let txtIndex = 0;
 let currentTxt = '';
