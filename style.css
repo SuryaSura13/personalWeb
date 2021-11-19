@@ -26,11 +26,7 @@ header{
     width: 100%;
     height: auto;
     z-index: 200;
-    transition: .5s ;
-   
-
-  
-    
+    transition: .5s ; 
 }
 header.sticky {
     background: #1F1D36;
@@ -92,7 +88,7 @@ header.sticky {
 
 /* image banners */
 section.banners {
-    background-image: url(Image/image\ profil.jpg);
+    background-image: url(Image/hiro.jpg);
     background-repeat: no-repeat;
     background-position: center;
     height: 100vh;
@@ -111,8 +107,8 @@ section.banners::after {
     left: 0;
     right: 0;
     top: 0;
-    background-color: #1F1D36;
-     opacity: .9;
+    background-color: #111;
+     opacity: .8;
      z-index: -1;
 }
 section.banners .container {
@@ -596,7 +592,8 @@ footer small {
     }
     /* .banners */
     section.banners {
-        background-position: -480px 0 ;
+        /* background-position: -480px 0 ; */
+        background-position: center;
     }
     section.banners .container {
         margin: auto;
