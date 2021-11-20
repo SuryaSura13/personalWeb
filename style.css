@@ -13,8 +13,7 @@
 }
 
 body {
-   background-color: #111;
-   
+   background-color: #212020;
 }
 
 a {
@@ -29,7 +28,7 @@ header{
     transition: .5s ; 
 }
 header.sticky {
-    background: #DA0037;
+    background: #fb0404;
     transition: .5s ;
     box-shadow: 0 1px 4px rgb(0, 0, 0,0.8);
 
@@ -48,12 +47,11 @@ header.sticky {
 }
 .menu h1 a{
     font-weight: 500;
-    color: #EDEDED;
+    color: #ffffff;
     text-shadow: 0px 0px 5px #232931;
     font-size: 40px;
     font-weight: 500;
     font-family: 'Cookie', cursive;
-    
 }
 .menu ul li {
     display: inline-block;
@@ -61,7 +59,7 @@ header.sticky {
 
 }
 .menu ul li a {
-    color: #EDEDED;
+    color: #ffffff;
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
@@ -86,7 +84,7 @@ header.sticky {
 }
 
 
-/* image banners */
+/* ---------------------------image banners hero ----------------------------*/
 section.banners {
     background-image: url(Image/hiro.jpg);
     background-repeat: no-repeat;
@@ -96,7 +94,7 @@ section.banners {
     position: relative;
     display: flex;
     z-index: 100;
-    color: #EDEDED;
+    color: #ffffff;
     background-attachment: fixed;
     
 }
@@ -107,7 +105,7 @@ section.banners::after {
     left: 0;
     right: 0;
     top: 0;
-    background-color: #111;
+    background-color: #212020;
      opacity: .8;
      z-index: -1;
 }
@@ -124,19 +122,15 @@ section.banners .banners-content .teks-1{
     font-size: 40px;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    color: #EDEDED;
 }
 section.banners .banners-content .teks-2{
     font-size: 40px;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    color: #EDEDED;
-    background-color: #DA0037;
+    background-color: #fb0404;
     text-shadow: 0 0 10px #232931;
     padding: 0 10px;
     border-radius: 1px 30px 30px 1px;
-    /* color: crimson; */
-    /* text-shadow: 0 0 1px #000; */
 }
 section.banners .banners-content .teks-3{
     font-size: 40px;
@@ -148,14 +142,14 @@ section.banners .banners-content .teks-3 span{
     font-size: 40px;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    color: #DA0037;
+    color: #fb0404;
 }
 section.banners .banners-content input[name="buttonCV"] {
     padding: 8px 15px;
-    border: 3px solid #DA0037;
+    border: 3px solid #fb0404;
     border-radius: 30px;
     background: transparent;
-    color: #EDEDED;
+    color: #ffffff;
     font-size: 20px;
     font-weight: 600;
     margin: 5px 0;
@@ -174,18 +168,18 @@ section.banners .banners-content input[name="buttonCV"]:hover {
     padding: 10px 0;
 }
 .banners .icon-subs a {
-    color: #EDEDED;
+    color: #ffffff;
     /* margin-left: 15px; */
     /* font-size: ; */
 }
 .banners .icon-subs a i {
-    color: #EDEDED;
+    color: #ffffff;
     font-size: 36px;
     margin-right: 17px;
 }
 
 
-/* section about */
+/*---------------------------- section about----------------------- */
 section h2 {
     padding-bottom: 5px;
     text-align: center;
@@ -193,7 +187,7 @@ section h2 {
     position: relative;
     font-size: 30px;
     font-weight: 800;
-    color: #DA0037;
+    color: #fb0404;
     font-family: 'Poppins', sans-serif;
 }
 section h2::before {
@@ -203,7 +197,7 @@ section h2::before {
     bottom: -2px;
     width: 100px;
     height: 5px;
-    background-color: #DA0037;
+    background-color: #fb0404;
     left: calc(50% - 50px);
 }
 section h2::after {
@@ -213,15 +207,16 @@ section h2::after {
     bottom: -8px;
     width: 17px;
     height: 17px;
-    background-color: #DA0037;
+    background-color: #fb0404;
     left: calc(50% - 9px);
     border-radius: 50%;
 }
 
-/* About */
+/*---------------------------- About---------------------------------- */
 
 #About {
     padding: 15vh 0;   
+    background-color: #373737;
 }
 
 #About .wrapper { 
@@ -245,7 +240,6 @@ section h2::after {
 #About .bingkai img {
     width: 100%;
     height: 100%;
-    border: 1px solid #222;
 }
 #About .teks-about {
     width: 49%;
@@ -258,17 +252,17 @@ section h2::after {
     text-align: justify;
     font-size: 16px;
     margin-bottom: 15px;
-    color: #EDEDED;
+    color: #ffffff;
     /* line-height: 20px; */
 }
 #About .teks-about h3 {
     font-weight: 800;
     font-size: 20px;
-    color: #DA0037;
+    color: #fb0404;
 }
 input[name="button"]{
-    background-color: #DA0037;
-    color: #EDEDED;
+    background-color: #fb0404;
+    color: #ffffff;
     font-weight: 600;
     padding: 10px 17px;
     border: none;
@@ -283,7 +277,7 @@ input[name="button"]:hover{
 }
 
 
-/* services */
+/* ----------------------services -----------------------------*/
 #Services {
     padding: 20vh 0;
 }
@@ -296,7 +290,7 @@ input[name="button"]:hover{
     margin-top: 15px;
 }
 #Services .content .card{
-    background: #333;
+    background: #373737;
   width: 340px;
   margin: 10px;
   padding: 20px;
@@ -308,7 +302,7 @@ input[name="button"]:hover{
   /* border-radius: 10px; */
 }
 #Services .content .card .ikon i{
-    color: #DA0037;
+    color: #fb0404;
   font-size: 4em;
   text-align: center;
   padding: 5px 0;
@@ -323,18 +317,18 @@ input[name="button"]:hover{
 text-align: center;
 }
 #Services .content .card .info h3{
-    color: #DA0037;
+    color: #fb0404;
   font-size: 1.2em;
   font-weight: 700;
   margin: 10px;
 }
 #Services .content .card .info p{
-    color: #EDEDED;
+    color: #ffffff;
 }
 
     
 
-/* blogs */
+/* ------------------blogs----------------- */
 #Blogs {
     padding: 6vh 0;
 
@@ -364,7 +358,7 @@ text-align: center;
   flex-direction: column;
   align-items:flex-start;
   justify-content: space-between;
-  background-color: #333;
+  background-color: #373737;
 }
 #Blogs .cards img{
     width: 100%;
@@ -376,14 +370,14 @@ text-align: center;
     font-size: 1.0em;
     font-weight: 700;
     margin: 0 10px;
-    color: #DA0037;
+    color: #fb0404;
 
 }
 #Blogs .cards p{
     text-align:justify;
     padding: 0 5px;
   margin: 0 10px;
-  color: #EDEDED;
+  color: #ffffff;
 
 }
 #Blogs .cards .writer {
@@ -401,13 +395,13 @@ text-align: center;
     background: transparent;
     margin: 5px 10px;
     border: none;
-    color: #DA0037;
+    color: #fb0404;
     font-weight: 700;
     font-size: 17;
 }
 #Blogs .cards input[name="buttonArticle"]:hover{
   cursor: pointer;
-  color: #FF165D;
+  color: #fb0404;
   transition: .5s;
   
 
@@ -419,7 +413,7 @@ text-align: center;
     border: none;
     border-radius: 20px;
     color: #EDEDED;
-    background-color: #DA0037;
+    background-color: #fb0404;
 }
 #Blogs .container input[name="buttonMore"]:hover {
   background-color: #1F1D36;
@@ -432,6 +426,7 @@ text-align: center;
 /* galery */
 #Galery {
     padding: 6vh 0;
+    background-color: #373737;
 
 }
 #Galery .container .gambar {
@@ -468,7 +463,6 @@ text-align: center;
 /* contact */
 #Contact {
     padding: 10vh 0;
-    background-color: #333;
 }
 #Contact .container {
     box-sizing: border-box;
@@ -481,7 +475,7 @@ text-align: center;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    color: #EDEDED;
+    color: #ffffff;
     /* background-color: #222; */
 
 
@@ -508,8 +502,8 @@ text-align: center;
     margin-bottom: 10px;
 }
 #Contact  input[type="submit"]{
-    background-color: #DA0037;  
-    color: #EDEDED;
+    background-color: #fb0404;  
+    color: #ffffff;
     width: 20%;
     padding: 10px;
     border: none;
@@ -525,7 +519,7 @@ text-align: center;
 footer {
     padding: 4vh 0;
     /* font-size: 20px; */
-    background-color: #222;
+    background-color: #111;
     color: #EDEDED;
     text-align: center;
 }
