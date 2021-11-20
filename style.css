@@ -303,7 +303,7 @@ input[name="button"]:hover{
 }
 #Services .content .card .ikon i{
     color: #fb0404;
-  font-size: 4em;
+  font-size: 5em;
   text-align: center;
   padding: 5px 0;
   transition: transform 0.5s ease;
